@@ -1,63 +1,103 @@
+Stellar Insured 🌐 — Frontend
 
-🌐 Stark Insured
-Decentralized, Transparent, and Trustless Insurance on StarkNet
+Stellar Insured is a decentralized, transparent, and trustless insurance platform built on the Stellar ecosystem.
+This frontend application provides users with a simple and intuitive interface to purchase insurance policies, submit claims, track coverage, and participate in decentralized governance—without relying on traditional insurance intermediaries.
 
-Stark Insured is a next-generation decentralized insurance platform built on the StarkNet ecosystem. By leveraging the power of blockchain and smart contracts, Stark Insured delivers tamper-proof, transparent, and automated insurance services — completely removing the need for traditional intermediaries.
+The frontend is designed for policyholders, DAO participants, and contributors, enabling seamless interaction with Stellar Soroban smart contracts and backend services while preserving transparency, security, and usability.
 
-🚀 Key Features
-Smart Contract Automation
-Streamlined policy issuance, claims processing, and settlements — all executed via secure and immutable smart contracts.
+✨ Key Features
 
-Oracle-Verified Claims
-Claims are automatically verified using real-time data oracles, ensuring fast and fair outcomes.
+Insurance policy purchase and management
 
-Decentralized Risk Pools
-Community-funded and managed risk pools that distribute and mitigate risk across a broader ecosystem.
+Claim submission and claim status tracking
 
-AI-Powered Fraud Detection
-Advanced machine learning techniques monitor and detect fraudulent activities to protect all stakeholders.
+DAO proposal creation and voting
 
-Multi-Asset Coverage
-Protect not just real-world assets, but also crypto holdings and cross-chain assets.
+Wallet-based authentication (non-custodial)
 
-DAO Governance
-Stark Insured is governed by a decentralized autonomous organization (DAO), empowering users to:
+Real-time UI updates from on-chain and backend events
 
-Propose and vote on policy changes
+Responsive and accessible design
 
-Manage risk pools
+🧑‍💻 Tech Stack
 
-Shape the future of decentralized insurance
+Framework: Next.js (App Router)
 
-🌉 Built on StarkNet
-StarkNet provides a scalable, secure, and low-cost environment for Stark Insured to thrive, making it ideal for handling complex decentralized insurance logic at scale.
+Language: TypeScript
 
-Folder Structure
-The project follows a standard Next.js folder structure:
-src/
-├── app/
-├── components/
-       ├── ui/
-├── hooks/
-│   ├── [custom hooks files]
-├── lib/
-├── pages/
-├── App.css
-├── index.css
+Styling: CSS / Tailwind CSS
 
-🛡️ Why Stark Insured?
-Trustless and censorship-resistant
+State Management: React Hooks
 
-Elimination of intermediaries and overhead
+Blockchain: Stellar wallet integrations
 
-Fully transparent claim handling and payouts
+Deployment: Vercel
 
-Community-driven governance
+📁 Project Structure
+.
+├── public/                  # Static assets
+├── src/
+│   ├── app/                 # Next.js App Router
+│   ├── components/          # Reusable UI components
+│   ├── data/                # Static and mock data
+│   ├── hooks/               # Custom React hooks
+│   ├── lib/                 # Utilities and helpers
+│   ├── styles/              # Global and modular styles
+│   ├── types/               # Shared TypeScript types
+│   └── App.css              # Global app styles
+├── middleware.ts            # Next.js middleware
+├── .gitignore
+├── CONTRIBUTING.md
+├── README.md
+├── components.json          # UI component config
+├── eslint.config.mjs
+├── next.config.ts
+├── package-lock.json
 
-Cutting-edge fraud prevention
+📦 Installation & Setup
+Prerequisites
 
-📬 Get Involved
-Whether you're a developer, policyholder, or crypto enthusiast — there's a place for you in the Stark Insured ecosystem.
+Node.js 18+
 
-Stay tuned for upcoming releases and documentation!
+npm or yarn
 
+Local Development
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+
+The application will be available at:
+http://localhost:3000
+
+🌐 Environment Variables
+
+Create a .env.local file in the project root:
+
+NEXT_PUBLIC_API_BASE_URL=http://localhost:3000
+NEXT_PUBLIC_STELLAR_NETWORK=testnet
+
+🧪 Testing
+npm run test
+
+🔗 Useful Links
+
+Stellar Docs: https://developers.stellar.org
+
+Soroban Docs: https://soroban.stellar.org/docs
+
+Next.js Docs: https://nextjs.org/docs
+
+🤝 Contributing
+
+Contributions are welcome 🚀
+
+Fork the repository
+
+Create a feature branch
+
+Commit clear, descriptive messages
+
+Open a Pull Request
