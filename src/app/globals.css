@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme inline {
+@theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   
@@ -9,6 +9,14 @@
   --color-stellar-accent: #8b5cf6; /* Violet */
   --color-stellar-accent-hover: #7c3aed;
   --color-stellar-secondary: #06b6d4; /* Cyan */
+  --color-brand-bg: #0a0c1a;
+  --color-brand-card: #151929;
+  --color-brand-sidebar: #0f1225;
+  --color-brand-primary: #1fbdf1;
+  --color-brand-primary-hover: #199bc6;
+  --color-brand-accent: #33cc66;
+  --color-brand-text-muted: #94a3b8;
+  --color-brand-border: #2d3748;
   
   --animate-fade-in: fadeIn 0.5s ease-out;
   --animate-slide-up: slideUp 0.5s ease-out;
