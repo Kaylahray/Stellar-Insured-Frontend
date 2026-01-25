@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useAuth } from "@/components/auth-provider";
+import HeroSection from "@/components/HeroSection";
 import { HowItWorksSection } from '@/components/HowItWorksSection';
 
 export default function Home() {
@@ -77,6 +78,8 @@ export default function Home() {
       </section>
 
       {/* How It Works Section */}
+    <div className="min-h-screen bg-[#0A0E27]">
+      <HeroSection />
       <HowItWorksSection />
     </div>
   );

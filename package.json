@@ -15,25 +15,18 @@
     "@stellar/freighter-api": "^6.0.1",
     "lucide-react": "^0.562.0",
     "next": "16.1.4",
+    "postcss": "^8.5.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.4",
-    "tailwindcss": "^4",
-    "typescript": "^5",
-    "@testing-library/react": "^16.1.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/user-event": "^14.5.2",
-    "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.7.0",
-    "@types/jest": "^29.5.14",
-    "fast-check": "^3.22.0",
-    "@fast-check/jest": "^2.0.2"
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5"
   }
 }
