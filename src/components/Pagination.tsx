@@ -8,6 +8,7 @@ interface PaginationProps {
   itemsPerPage: number;
   onPageChange: (page: number) => void;
   className?: string;
+  pageName?: string
 }
 
 export const Pagination: React.FC<PaginationProps> = ({
@@ -16,6 +17,7 @@ export const Pagination: React.FC<PaginationProps> = ({
   itemsPerPage,
   onPageChange,
   className = '',
+  pageName = ''
 }) => {
   const totalPages = Math.ceil(totalItems / itemsPerPage);
   
@@ -35,7 +37,7 @@ export const Pagination: React.FC<PaginationProps> = ({
     <div className={`flex items-center justify-between ${className}`}>
       {/* Left side - Total items count */}
       <div className="text-cyan-400 text-xs md:text-sm font-medium">
-        {formatNumber(totalItems)} Claims
+        {formatNumber(totalItems)} {pageName}
       </div>
 
       {/* Right side - Pagination controls */}
